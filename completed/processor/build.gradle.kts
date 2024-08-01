@@ -9,3 +9,5 @@ dependencies {
     implementation(project(":annotations"))
     implementation("com.google.devtools.ksp:symbol-processing-api:$kspVersion")
 }
+
+tasks.register("prepareKotlinBuildScriptModel"){}

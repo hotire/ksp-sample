@@ -11,7 +11,6 @@ interface MyAmazingFunction {
     val arg3: List<Map<String, *>?>
 }
 
-
 fun main() {
     // Calling first generated function.
     functionWithoutArgs()

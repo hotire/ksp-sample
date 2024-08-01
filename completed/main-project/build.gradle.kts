@@ -26,3 +26,5 @@ dependencies {
     implementation(project(":annotations"))
     ksp(project(":processor"))
 }
+
+tasks.register("prepareKotlinBuildScriptModel"){}

@@ -65,6 +65,9 @@ class FunctionProcessor(
             packageName = "com.morfly",
             fileName = "GeneratedFunctions"
         )
+
+        options.forEach { k, v -> logger.info("key : $k, value : $v") }
+
         // Generating package statement.
         file += "package com.morfly\n"
 
